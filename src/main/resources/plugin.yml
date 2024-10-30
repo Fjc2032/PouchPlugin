@@ -1,0 +1,8 @@
+name: PouchPlugin
+version: '0.1-alpha'
+main: dev.Fjc.pouchPlugin.PouchPlugin
+api-version: '1.21'
+prefix: PP
+load: STARTUP
+authors: [ Fjc ]
+description: Provides a pouch inventory for items that overflow the inventory.
