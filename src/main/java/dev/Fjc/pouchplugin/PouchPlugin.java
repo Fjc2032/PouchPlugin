@@ -43,7 +43,7 @@ public final class PouchPlugin extends JavaPlugin implements Listener {
   }
 
   private void initializeItems() {
-    inv.addItem(createItem(Material.TOTEM_OF_UNDYING, "Pouch", Chatcolor.YELLOW + "Pouch", "Line 2", "Line 3")); //Debug
+    inv.addItem(createItem(Material.TOTEM_OF_UNDYING, "Pouch", ChatColor.YELLOW + "Pouch", "Line 2", "Line 3")); //Debug
   }
 
   protected ItemStack createItem(final Material material, final String name, final String... lore) {
